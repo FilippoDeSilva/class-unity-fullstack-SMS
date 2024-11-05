@@ -33,8 +33,7 @@ To learn more about Next.js, take a look at the following resources:
 - npm run dev
 <!-- - npx convex dev -->
 - npx prisma studio
-- run a docker postgres container for the database
-
+- run a docker postgres container for the database with DATABASE_USER=classunity DATABASE_PASSWORD=classunity123 and use the default port
 
 
 ## Maintenance commands
