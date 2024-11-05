@@ -51,16 +51,16 @@ To learn more about Next.js, take a look at the following resources:
     NEXT_PUBLIC_CLERK_SIGN_IN_URL=/
     CLERK_WEBHOOK_SECRET=<your-clerk-webhook-secret>
 
-    # A AUTOMATICALLY GENERATED ENCRYPTION KEY FOR CLERK
-    # YOU CAN GENERATE ONE FOLLOWING THE STEPS: 
-    # For Linux:  
-    # openssl rand -base64 32 
-    # OR WITH A POWERSHELL COMMAND for Windows:
-    # $rng = New-Object System.Security.Cryptography.RNGCryptoServiceProvider
-    # $bytes = New-Object byte[](32)
-    # $rng.GetBytes($bytes)
-    # $key = [Convert]::ToBase64String($bytes)
-    # Write-Output $key
+    ### A AUTOMATICALLY GENERATED ENCRYPTION KEY FOR CLERK
+    ### YOU CAN GENERATE ONE FOLLOWING THE STEPS: 
+    ### For Linux:  
+    ### openssl rand -base64 32 
+    ### OR WITH A POWERSHELL COMMAND for Windows:
+    ### $rng = New-Object System.Security.Cryptography.RNGCryptoServiceProvider
+    ### $bytes = New-Object byte[](32)
+    ### $rng.GetBytes($bytes)
+    ### $key = [Convert]::ToBase64String($bytes)
+    ### Write-Output $key
 
     CLERK_ENCRYPTION_KEY=<your-clerk-encryption-key>
     #STREAM API
