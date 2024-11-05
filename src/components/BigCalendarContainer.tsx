@@ -1,6 +1,15 @@
 import prisma from "@/lib/prisma";
 import BigCalendar from "./BigCalender";
 import { adjustScheduleToCurrentWeek } from "@/lib/utils";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Big Calendar"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 const BigCalendarContainer = async ({
   type,

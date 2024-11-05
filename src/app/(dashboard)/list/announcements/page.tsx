@@ -7,7 +7,16 @@ import { ITEM_PER_PAGE } from "@/lib/settings";
 import { Announcement, Class, Prisma } from "@prisma/client";
 import Image from "next/image";
 import { auth } from "@clerk/nextjs/server";
+import { Viewport } from "next";
 
+export const metadata = {
+  title: "Class-Unity | Announcements"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 type AnnouncementList = Announcement & { class: Class };
 const AnnouncementListPage = async ({

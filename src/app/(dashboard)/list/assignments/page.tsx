@@ -10,7 +10,7 @@ import { auth } from "@clerk/nextjs/server";
 import FormContainer from "@/components/FormContainer";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Assignments"
+  title: "Class-Unity | Assignments"
 }
 
 export const viewport: Viewport = {

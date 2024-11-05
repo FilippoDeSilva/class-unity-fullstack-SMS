@@ -11,7 +11,7 @@ import Link from "next/link";
 import { auth } from "@clerk/nextjs/server";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Students"
+  title: "Class-Unity | Students"
 }
 
 export const viewport: Viewport = {

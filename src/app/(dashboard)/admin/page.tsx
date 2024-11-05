@@ -7,7 +7,7 @@ import EventCalendarContainer from "@/components/EventCalendarContainer";
 import UserCard from "@/components/UserCard";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Admin Dashboard"
+  title: "Class-Unity | Admin Dashboard"
 }
 
 export const viewport: Viewport = {

@@ -1,6 +1,15 @@
 'use client';
 import { useEffect, useState, useRef } from 'react';
 import { IoDownloadOutline, IoClose } from 'react-icons/io5';
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Install PWA"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 interface NavigatorWithRelatedApps extends Navigator {
   getInstalledRelatedApps?: () => Promise<any[]>;

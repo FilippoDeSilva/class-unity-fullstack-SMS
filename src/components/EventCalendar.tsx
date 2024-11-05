@@ -4,6 +4,16 @@ import { useRouter } from "next/navigation";
 import { useEffect, useState } from "react";
 import Calendar from "react-calendar";
 import "react-calendar/dist/Calendar.css";
+import { Viewport } from "next";
+
+export const metadata = {
+  title: "Class-Unity | Event Calendar"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 type ValuePiece = Date | null;
 

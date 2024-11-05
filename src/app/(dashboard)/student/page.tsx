@@ -9,7 +9,7 @@ import { Viewport } from "next";
 // const ToastNotification = dynamic(() => import('@/components/ToastNotifications'), { ssr: false });
 
 export const metadata = {
-  title: "Student"
+  title: "Class-Unity | Student"
 }
 
 export const viewport: Viewport = {

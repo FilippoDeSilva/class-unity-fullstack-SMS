@@ -7,7 +7,7 @@ const ChatComponent = dynamic(() => import('@/components/ChatComponent'), {
 })
 
 export const metadata = {
-  title: "Chat"
+  title: "Class-Unity | Chat"
 }
 
 export const viewport: Viewport = {

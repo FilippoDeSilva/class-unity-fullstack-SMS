@@ -9,6 +9,16 @@ import { Dispatch, SetStateAction, useState } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { z } from "zod";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Announcement Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
+
 
 // Update the AnnouncementSchema to use proper types
 const AnnouncementSchemaWithTypes = AnnouncementSchema.extend({

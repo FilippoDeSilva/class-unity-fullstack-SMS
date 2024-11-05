@@ -8,6 +8,15 @@ import { Dispatch, SetStateAction, useEffect, useState } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { z } from "zod";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Assignment Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 // Update the AssignmentSchema to use proper types
 const AssignmentSchemaWithTypes = AssignmentSchema.extend({

@@ -11,6 +11,15 @@ import { createTeacher, updateTeacher } from "@/lib/actions";
 import { useRouter } from "next/navigation";
 import { toast } from "react-toastify";
 import { CldUploadWidget } from "next-cloudinary";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Teacher Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 const TeacherForm = ({
   type,

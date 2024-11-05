@@ -3,7 +3,7 @@ import BigCalendarContainer from "@/components/BigCalendarContainer";
 import { auth } from "@clerk/nextjs/server";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Teacher"
+  title: "Class-Unity | Teacher"
 }
 
 export const viewport: Viewport = {

@@ -4,6 +4,15 @@ import { Calendar, momentLocalizer, View, Views } from "react-big-calendar";
 import moment from "moment";
 import "react-big-calendar/lib/css/react-big-calendar.css";
 import { useState } from "react";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Big Calendar"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 const localizer = momentLocalizer(moment);
 

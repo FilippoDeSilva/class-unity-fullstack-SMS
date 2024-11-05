@@ -11,7 +11,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Teacher"
+  title: "Class-Unity | Teacher"
 }
 
 export const viewport: Viewport = {

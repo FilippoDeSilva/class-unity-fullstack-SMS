@@ -10,7 +10,7 @@ import { ITEM_PER_PAGE } from "@/lib/settings";
 import { auth } from "@clerk/nextjs/server";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Teachers"
+  title: "Class-Unity | Teachers"
 }
 
 export const viewport: Viewport = {

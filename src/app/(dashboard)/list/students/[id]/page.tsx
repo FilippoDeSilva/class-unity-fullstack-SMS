@@ -10,7 +10,7 @@ import Link from "next/link";
 import { notFound } from "next/navigation";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Student"
+  title: "Class-Unity | Student"
 }
 
 export const viewport: Viewport = {

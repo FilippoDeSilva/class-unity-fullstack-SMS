@@ -26,6 +26,15 @@ import {
   IoPersonRemove,
 } from "react-icons/io5";
 import Image from "next/image";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Chat"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 // Define the User type
 interface User {

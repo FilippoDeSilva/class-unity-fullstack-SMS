@@ -8,6 +8,15 @@ import { Dispatch, SetStateAction, useState } from "react";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { z } from "zod";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Event Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 // Update the EventSchema to use proper types
 const EventSchemaWithTypes = EventSchema.extend({

@@ -1,5 +1,14 @@
 import prisma from "@/lib/prisma";
 import { auth } from "@clerk/nextjs/server";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Announcements"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 const Announcements = async () => {
   const { userId, sessionClaims } = auth();

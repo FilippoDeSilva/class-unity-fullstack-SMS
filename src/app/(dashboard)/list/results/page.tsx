@@ -9,7 +9,7 @@ import Image from "next/image";
 import { auth } from "@clerk/nextjs/server";
 import { Viewport } from "next";
 export const metadata = {
-  title: "Results"
+  title: "Class-Unity | Results"
 }
 
 export const viewport: Viewport = {

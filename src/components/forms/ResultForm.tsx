@@ -8,6 +8,15 @@ import { createResult, updateResult } from "@/lib/actions";
 import { toast } from "react-toastify";
 import { useRouter } from "next/navigation";
 import { z } from "zod";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Result Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 // ResultSchema types
 const ResultSchemaWithTypes = ResultSchema.extend({

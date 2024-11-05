@@ -8,6 +8,15 @@ import { useEffect } from "react";
 import { toast } from "react-toastify";
 import { createChapter, updateChapter } from "@/lib/actions";
 import InputField from "@/components/InputField";
+import { Viewport } from "next";
+export const metadata = {
+  title: "Class-Unity | Chapter Form"
+}
+
+export const viewport: Viewport = {
+  width: "device-width",
+  initialScale: 1,
+}
 
 type ChapterFormProps = {
   type: "create" | "update";

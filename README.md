@@ -22,7 +22,8 @@ You can start editing the page by modifying `app/page.tsx`. The page auto-update
 
 To learn more about Next.js, take a look at the following resources:
 
-- [Our Github Repository](https://github.com/FilippoDeSilva/class-unity-nextjs-school-management-system) 
+- [Our Github Repository](https://github.com/FilippoDeSilva/class-unity-fullstack-sms.git) 
+- Give us a star ⭐️ in the repository, it helps us a lot! Thank you!
 - [Next.js](https://nextjs.org/learn)
 
 
@@ -33,56 +34,9 @@ To learn more about Next.js, take a look at the following resources:
 - npm run dev
 <!-- - npx convex dev -->
 - npx prisma studio
-- run a docker postgres container for the database with DATABASE_USER=<your-user> and DATABASE_PASSWORD=<your-password> and use the default port
+- run a docker postgres container for the database
 
-<h5>
 
-- create a .env file at the directory of the project and put something like this:  </br>
-   
-    NEXT_PUBLIC_STREAM_API=<your-next-stream-public-api>    </br>
-    STREAM_API_SECRET=<your-stream-api-secret>               </br>
-    STREAM_APP_ID=<your-app-id>                              </br>
-    #JWT STRING                                               </br>
-    JWT_SECRET=<your-jwt-secret>                              </br>
-    NEXTAUTH_SECRET=<your-next-auth-secret> It'll be added by `npx auth`. Read more: https://cli.authjs.dev       </br>
-    DATABASE_URL='postgresql://<databaseuser>:<databasepassword>@localhost:5432/<databasename>'                   </br>
-    
-- create a .env.local file at the directory of the project and put something like this:                           </br>
-  
-    NEXT_PUBLIC_CLERK_PUBLISHABLE_KEY=<your-next-public-clerk-publishable-key>                                    </br>
-    CLERK_SECRET_KEY=<your-clerk-secret-key>                                                                     </br>
-    NEXT_PUBLIC_CLERK_SIGN_IN_URL=/                                                                              </br>
-    CLERK_WEBHOOK_SECRET=<your-clerk-webhook-secret>                                                             </br>
-  </h5>
-```bash
-      A AUTOMATICALLY GENERATED ENCRYPTION KEY FOR CLERK
-
-      YOU CAN GENERATE ONE FOLLOWING THE STEPS:
-  
-      For Linux:
-  
-      openssl rand -base64 32
-  
-      OR WITH A POWERSHELL COMMAND for Windows:
-  
-      $rng = New-Object System.Security.Cryptography.RNGCryptoServiceProvider
-      $bytes = New-Object byte[](32)
-      $rng.GetBytes($bytes)
-      $key = [Convert]::ToBase64String($bytes)
-      Write-Output $key
-
-    CLERK_ENCRYPTION_KEY=<your-clerk-encryption-key>
-```
-<h5>   
-    #STREAM API                                                                                                 </br>
-    NEXT_PUBLIC_STREAM_API=<your-next-public-stream-api>                                                       </br>
-    STREAM_API_SECRET=<your-stream-api-secret>                                                                </br>
-    #Claudinary Secrets                                                                                       </br>
-    NEXT_PUBLIC_CLOUDINARY_CLOUD_NAME=<your-public-cloudinary-cloud-name>                                     </br>
-    NEXT_PUBLIC_CLOUDINARY_API_KEY=<your-next-public-cloudinary-api-key>                                      </br>
-    NEXT_PUBLIC_CLOUDINARY_UPLOAD_PRESET=<your-next-public-cloudinary-upload-presets>                         </br>
-    CLOUDINARY_URL=<your-cloudinary-url>                                                                      </br>
-</h5>
 
 ## Maintenance commands
 
@@ -92,3 +46,83 @@ To learn more about Next.js, take a look at the following resources:
 - npx prisma generate
 - npx prisma studio    
 - npx prisma migrate reset
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<!-- 
+## I'VE STOPPED AT 2:30:00 HOUR
+
+
+## TEACHERS PAGE STARTS FROM 3:40:00 HOUR
+
+
+
+## FOR ROLE BASED ROUTE PROTECTION I'VE TO WATCH STARTING FROM 5:47:00 HR UP TO 6:00:00 HR 
+
+
+
+
+### THE LIVE CHAT VIDEO 45:00 MINS -->
+
+
+
+
+
+
+
+- WHEN EXAM HAS BEEN CREATED THE EXAM TABLE SHOULD APPEND THE NEW EXAM  (URGENT!!!)
+- LESSONS PAGE
+- EXAMS PAGE
+- ASSIGNMENTS PAGE
+- RESULTS PAGE
+- EVENTS PAGE
+- MESSAGES PAGE
+- ANNOUNCEMENTS PAGE
+
+
+
+
+
+
+
+- SUBJECTS PAGE TOASTIFY NOTIFICATION FOR STATES
